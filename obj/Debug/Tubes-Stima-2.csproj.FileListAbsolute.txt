@@ -14,3 +14,16 @@ C:\PROGRAMMING\Tubes-Stima-2\obj\Debug\Tubes-Stima-2.csproj.CopyComplete
 C:\PROGRAMMING\Tubes-Stima-2\obj\Debug\Tubes-Stima-2.exe
 C:\PROGRAMMING\Tubes-Stima-2\obj\Debug\Tubes-Stima-2.pdb
 C:\PROGRAMMING\Tubes-Stima-2\obj\Debug\Tubes_Stima_2.Form1.resources
+C:\PROGRAMMING\TugasBesar-Stima-2\obj\Debug\Tubes-Stima-2.csprojAssemblyReference.cache
+C:\PROGRAMMING\TugasBesar-Stima-2\obj\Debug\Tubes_Stima_2.Form1.resources
+C:\PROGRAMMING\TugasBesar-Stima-2\obj\Debug\Tubes_Stima_2.Properties.Resources.resources
+C:\PROGRAMMING\TugasBesar-Stima-2\obj\Debug\Tubes-Stima-2.csproj.GenerateResource.cache
+C:\PROGRAMMING\TugasBesar-Stima-2\obj\Debug\Tubes-Stima-2.exe
+C:\PROGRAMMING\TugasBesar-Stima-2\obj\Debug\Tubes-Stima-2.pdb
+C:\PROGRAMMING\TugasBesar-Stima-2\bin\Debug\Tubes-Stima-2.exe.config
+C:\PROGRAMMING\TugasBesar-Stima-2\bin\Debug\Tubes-Stima-2.exe
+C:\PROGRAMMING\TugasBesar-Stima-2\bin\Debug\Tubes-Stima-2.pdb
+C:\PROGRAMMING\TugasBesar-Stima-2\bin\Debug\Microsoft.Msagl.xml
+C:\PROGRAMMING\TugasBesar-Stima-2\bin\Debug\Microsoft.Msagl.Drawing.xml
+C:\PROGRAMMING\TugasBesar-Stima-2\bin\Debug\Microsoft.Msagl.GraphViewerGdi.xml
+C:\PROGRAMMING\TugasBesar-Stima-2\obj\Debug\Tubes-Stima-2.csproj.CopyComplete

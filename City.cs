@@ -9,20 +9,7 @@ namespace Tubes_Stima_2
     public class City
     {
         private readonly int population;
-        private int startDay;
-        public int StartDay {
-            get
-            {
-                return startDay;
-            }
-            set
-            {
-                if (startDay == -1 || value == -1)
-                {
-                    startDay = value;
-                }
-            }
-        }
+        public int startDay;
         private readonly string name;
 
         public City(string name, int population)
@@ -40,7 +27,7 @@ namespace Tubes_Stima_2
 
         public void Reset()
         {
-            StartDay = -1;
+            startDay = -1;
         }
 
         public int P()
@@ -51,13 +38,13 @@ namespace Tubes_Stima_2
         //Hari Terkena Virus
         public int T()
         {
-            return this.StartDay;
+            return this.startDay;
         }
 
         //Lama hari setelah terkena virus
         public int t(int targetDay)
         {
-            return targetDay - StartDay;
+            return targetDay - startDay;
         }
 
         public double I(int targetDay)

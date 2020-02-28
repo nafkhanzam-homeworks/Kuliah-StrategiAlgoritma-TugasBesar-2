@@ -40,7 +40,7 @@ namespace Tubes_Stima_2
             {
                 city.Reset();
             }
-            root.StartDay = 0;
+            root.startDay = 0;
             var q = new Queue<City>();
             q.Enqueue(root);
 
@@ -53,9 +53,10 @@ namespace Tubes_Stima_2
                     if (S(now, next, targetDay) > 1)
                     {
                         UpdateInfected(now, next);
-                        if (next.StartDay == -1)
+                        int nextDay = DayPenyebaran(now, next) + now.startDay;
+                        if (next.startDay <= nextDay)
                         {
-                            next.StartDay = DayPenyebaran(now, next) + now.StartDay;
+                            next.startDay = nextDay;
                             q.Enqueue(next);
                         }
                     }
