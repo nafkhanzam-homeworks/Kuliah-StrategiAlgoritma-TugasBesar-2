@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -58,7 +59,7 @@ namespace Tubes_Stima_2
                 {
                     throw new Exception("Query hari tidak boleh negatif atau lebih dari 20!");
                 }
-                string[] g = graphTxtBox.Text.Split('\n');
+                string[] g = listKotaTxtBox.Text.Split('\n');
                 Dictionary<string, City> map = new Dictionary<string, City>();
                 int i = 0;
                 string[] l = g[i++].Split(' ');
@@ -71,6 +72,7 @@ namespace Tubes_Stima_2
                     map[line[0]] = new City(line[0], int.Parse(line[1]));
                     graph.MSAGLGraph.AddNode(new Node(line[0]));
                 }
+                g = petaTxtBox.Text.Split('\n');
                 n = int.Parse(g[i++]);
                 while (n-- > 0)
                 {
@@ -80,9 +82,9 @@ namespace Tubes_Stima_2
                 graph.Query(map[root], targetDay);
                 SetGraph(graph);
             }
-            catch (Exception ex)
+            catch
             {
-                MessageBox.Show(ex.ToString());
+                MessageBox.Show("Input tidak valid!");
             }
         }
 
@@ -95,6 +97,52 @@ namespace Tubes_Stima_2
             panel1.Controls.Clear();
             panel1.Controls.Add(viewer);
             panel1.ResumeLayout();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // Peta hubungan file
+            openFilePetaDialog.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            // List kota file
+            openFileListKotaDialog.ShowDialog();
+        }
+
+        private void richTextBox1_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
+        {
+            try
+            {
+                listKotaTxtBox.Text = File.ReadAllText(openFileListKotaDialog.FileName, Encoding.UTF8);
+            }
+            catch
+            {
+                MessageBox.Show("Gagal membaca file!");
+            }
+        }
+
+        private void openFilePetaDialog_FileOk(object sender, CancelEventArgs e)
+        {
+            try
+            {
+                petaTxtBox.Text = File.ReadAllText(openFilePetaDialog.FileName, Encoding.UTF8);
+            }
+            catch
+            {
+                MessageBox.Show("Gagal membaca file!");
+            }
         }
     }
 }

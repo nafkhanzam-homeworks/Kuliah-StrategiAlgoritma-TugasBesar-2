@@ -27,3 +27,6 @@ C:\PROGRAMMING\TugasBesar-Stima-2\bin\Debug\Microsoft.Msagl.xml
 C:\PROGRAMMING\TugasBesar-Stima-2\bin\Debug\Microsoft.Msagl.Drawing.xml
 C:\PROGRAMMING\TugasBesar-Stima-2\bin\Debug\Microsoft.Msagl.GraphViewerGdi.xml
 C:\PROGRAMMING\TugasBesar-Stima-2\obj\Debug\Tubes-Stima-2.csproj.CopyComplete
+C:\PROGRAMMING\TugasBesar-Stima-2\bin\Debug\Microsoft.Msagl.dll
+C:\PROGRAMMING\TugasBesar-Stima-2\bin\Debug\Microsoft.Msagl.Drawing.dll
+C:\PROGRAMMING\TugasBesar-Stima-2\bin\Debug\Microsoft.Msagl.GraphViewerGdi.dll
