@@ -73,6 +73,7 @@ namespace Tubes_Stima_2
                     graph.MSAGLGraph.AddNode(new Node(line[0]));
                 }
                 g = petaTxtBox.Text.Split('\n');
+                i = 0;
                 n = int.Parse(g[i++]);
                 while (n-- > 0)
                 {
@@ -82,9 +83,9 @@ namespace Tubes_Stima_2
                 graph.Query(map[root], targetDay);
                 SetGraph(graph);
             }
-            catch
+            catch (Exception ex)
             {
-                MessageBox.Show("Input tidak valid!");
+                MessageBox.Show("Input tidak valid!\n" + ex.StackTrace);
             }
         }
 
