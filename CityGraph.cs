@@ -54,7 +54,7 @@ namespace Tubes_Stima_2
                     {
                         UpdateInfected(now, next);
                         int nextDay = DayPenyebaran(now, next) + now.startDay;
-                        if (next.startDay <= nextDay)
+                        if (next.startDay > nextDay)
                         {
                             next.startDay = nextDay;
                             q.Enqueue(next);

@@ -9,7 +9,7 @@ namespace Tubes_Stima_2
     public class City
     {
         private readonly int population;
-        public int startDay;
+        public int startDay; // hari pertama terkena virus
         private readonly string name;
 
         public City(string name, int population)
@@ -27,7 +27,7 @@ namespace Tubes_Stima_2
 
         public void Reset()
         {
-            startDay = -1;
+            startDay = int.MaxValue;
         }
 
         public int P()

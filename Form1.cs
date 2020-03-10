@@ -55,9 +55,9 @@ namespace Tubes_Stima_2
             try
             {
                 int targetDay = int.Parse(dayTxtBox.Text);
-                if (targetDay < 0 || targetDay > 20)
+                if (targetDay < 0)
                 {
-                    throw new Exception("Query hari tidak boleh negatif atau lebih dari 20!");
+                    throw new Exception("Query hari tidak boleh negatif!");
                 }
                 string[] g = listKotaTxtBox.Text.Split('\n');
                 Dictionary<string, City> map = new Dictionary<string, City>();
@@ -85,7 +85,7 @@ namespace Tubes_Stima_2
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Input tidak valid!\n" + ex.StackTrace);
+                MessageBox.Show("Input tidak valid!\n" + ex.Message);
             }
         }
 
