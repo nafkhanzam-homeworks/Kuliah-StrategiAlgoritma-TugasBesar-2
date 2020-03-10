@@ -30,3 +30,16 @@ C:\PROGRAMMING\TugasBesar-Stima-2\obj\Debug\Tubes-Stima-2.csproj.CopyComplete
 C:\PROGRAMMING\TugasBesar-Stima-2\bin\Debug\Microsoft.Msagl.dll
 C:\PROGRAMMING\TugasBesar-Stima-2\bin\Debug\Microsoft.Msagl.Drawing.dll
 C:\PROGRAMMING\TugasBesar-Stima-2\bin\Debug\Microsoft.Msagl.GraphViewerGdi.dll
+C:\PROGRAMMING\Kuliah-StrategiAlgoritma-TugasBesar-2\bin\Debug\Tubes-Stima-2.exe.config
+C:\PROGRAMMING\Kuliah-StrategiAlgoritma-TugasBesar-2\bin\Debug\Tubes-Stima-2.exe
+C:\PROGRAMMING\Kuliah-StrategiAlgoritma-TugasBesar-2\bin\Debug\Tubes-Stima-2.pdb
+C:\PROGRAMMING\Kuliah-StrategiAlgoritma-TugasBesar-2\bin\Debug\Microsoft.Msagl.xml
+C:\PROGRAMMING\Kuliah-StrategiAlgoritma-TugasBesar-2\bin\Debug\Microsoft.Msagl.Drawing.xml
+C:\PROGRAMMING\Kuliah-StrategiAlgoritma-TugasBesar-2\bin\Debug\Microsoft.Msagl.GraphViewerGdi.xml
+C:\PROGRAMMING\Kuliah-StrategiAlgoritma-TugasBesar-2\obj\Debug\Tubes-Stima-2.csprojAssemblyReference.cache
+C:\PROGRAMMING\Kuliah-StrategiAlgoritma-TugasBesar-2\obj\Debug\Tubes_Stima_2.Form1.resources
+C:\PROGRAMMING\Kuliah-StrategiAlgoritma-TugasBesar-2\obj\Debug\Tubes_Stima_2.Properties.Resources.resources
+C:\PROGRAMMING\Kuliah-StrategiAlgoritma-TugasBesar-2\obj\Debug\Tubes-Stima-2.csproj.GenerateResource.cache
+C:\PROGRAMMING\Kuliah-StrategiAlgoritma-TugasBesar-2\obj\Debug\Tubes-Stima-2.csproj.CopyComplete
+C:\PROGRAMMING\Kuliah-StrategiAlgoritma-TugasBesar-2\obj\Debug\Tubes-Stima-2.exe
+C:\PROGRAMMING\Kuliah-StrategiAlgoritma-TugasBesar-2\obj\Debug\Tubes-Stima-2.pdb

@@ -90,7 +90,7 @@ namespace Tubes_Stima_2
 
         public int DayPenyebaran(City from, City to)
         {
-            double d = 20d / (double)(from.P() * Tr(from, to));
+            double d = -4*Math.Log((from.P()*Tr(from, to)-1)/(from.P()-1));
             int next = (int)Math.Ceiling(d);
             if (next == d)
             {

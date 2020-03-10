@@ -49,12 +49,8 @@ namespace Tubes_Stima_2
 
         public double I(int targetDay)
         {
-            //double Population = this.population;
-            //double DurationInfected = t(targetDay);
-            //double Infected;
-            //Infected = Population / (1 + (Population - 1) * Math.Exp(-0.25 * DurationInfected));
-            //return Infected;
-            return t(targetDay) * P() / 20d;
+            double p = (double)P();
+            return p / (1 + (p - 1) * Math.Exp(-0.25 * t(targetDay)));
         }
 
     }
