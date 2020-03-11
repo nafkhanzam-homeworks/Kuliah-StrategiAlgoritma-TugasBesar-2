@@ -1,9 +1,11 @@
 ﻿using Microsoft.Msagl.Drawing;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Tubes_Stima_2
 {
@@ -43,13 +45,14 @@ namespace Tubes_Stima_2
             root.startDay = 0;
             var q = new Queue<City>();
             q.Enqueue(root);
-
+            //string result = "";
             while (q.Count > 0)
             {
                 City now = q.Dequeue();
                 UpdateInfected(now);
                 foreach (City next in graph[now])
                 {
+                    //result += string.Format("{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11}", now.GetName(), next.GetName(), now.P(), Tr(now, next), now.T(), next.T(), now.t(targetDay), now.I(targetDay), S(now, next, targetDay), S(now, next, targetDay) > 1 ? "YA" : "TIDAK", DayPenyebaran(now, next), DayPenyebaran(now, next) + now.startDay);
                     if (S(now, next, targetDay) > 1)
                     {
                         UpdateInfected(now, next);
@@ -60,8 +63,15 @@ namespace Tubes_Stima_2
                             q.Enqueue(next);
                         }
                     }
+                    //result += ",(";
+                    //foreach (City c in q)
+                    //{
+                    //    result += c.GetName() + "|";
+                    //}
+                    //result += ")\n";
                 }
             }
+            //File.WriteAllText("output.csv", result);
         }
 
         private void UpdateInfected(City city)
